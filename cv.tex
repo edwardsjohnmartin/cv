@@ -1,0 +1,668 @@
+\documentclass[margin,line]{res}
+
+\usepackage{version}
+\usepackage{versions}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[usenames,dvipsnames]{color}
+
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+%\topmargin-2cm
+\textwidth=6.0in
+\textheight23.5cm
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+%\newcommand{\pubunder}[1]{\underline{#1}}
+\newcommand{\pubunder}[1]{#1}
+
+%-------------------------------------------------------------------------------
+% this makes list spacing much better.
+%-------------------------------------------------------------------------------
+\newenvironment{tightenumerate}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}
+}
+
+%-------------------------------------------------------------------------------
+% this makes list spacing much better.
+%-------------------------------------------------------------------------------
+\newenvironment{tightitemize}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}
+}
+
+\includeversion{LONG} 
+%\excludeversion{LONG} 
+
+%\includeversion{IMPACT}
+\excludeversion{IMPACT}
+
+\includeversion{PENDING}
+%\excludeversion{PENDING}
+
+\begin{document}
+
+\name{\Large{John Edwards, Ph.D.} \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+%\begin{tabular}{@{}p{3in}p{3in}}
+%\begin{tabular}{@{}p{3.7in}p{3in}}
+%Center for Extreme Data Management and Visualization & \\
+%Scientific Computing and Imaging Institute   &  \\%801.585.3911 (office)  \\ 
+%University of Utah      &  (385) 207-8331 \\
+%WEB 4660          &  jedwards@sci.utah.edu \\
+%Salt Lake City, UT 84112                &  http://sci.utah.edu/$\sim$jedwards
+%\end{tabular}
+
+%\begin{tabular}{@{}p{3.7in}p{3in}}
+%Center for Extreme Data Management and Visualization & (385) 207-8331 \\
+%Scientific Computing and Imaging Institute   & jedwards@sci.utah.edu \\
+%University of Utah      &  http://sci.utah.edu/$\sim$jedwards \\
+%WEB 4660          &  \\
+%Salt Lake City, UT 84112                & 
+%\end{tabular}
+
+\begin{tabular}{@{}p{3.7in}p{3in}}
+Department of Informatics and Computer Science & (385) 207-8331 \\
+Idaho State University   & edwardsjohnmartin@gmail.com \\
+BA 337      &  www2.cose.isu.edu/$\sim$edwajohn \\
+Pocatello, ID 83209          &
+\end{tabular}
+
+%\section{\sc Research Interests}
+\section{\sc Research}
+
+Geometric modeling, simulation, scientific visualization
+
+\section{\sc Education}
+
+%\textbf{Ph.D.} Computer Science, The University of Texas, 2013\\
+%\textbf{M.S.} Computer Science, Brigham Young University, 2004\\
+%\textbf{B.S.} Computer Science, Utah State University, 1998\\
+Ph.D. Computer Science, The University of Texas, 2013\\
+M.S. Computer Science, Brigham Young University, 2004\\
+B.S. Computer Science, Utah State University, 1998\\
+
+\section{\sc Professional experience}
+
+Assistant professor, Utah State University, 2018-current\\
+Assistant professor, Idaho State University, 2015-2018\\
+Post-doctoral fellow, Scientific Computing and Imaging
+Institute, University of Utah, 2013-2015\\
+Visiting scholar, University of Hong Kong, 2012\\
+Assistant instructor (during PhD studies), The University of Texas, 2010-2013\\
+%Teaching assistant, Computer Science Department, The University of Texas, 2009-2012\\
+Robotics and visualization research engineer, Autonomous Solutions, Inc., 2008-2009\\
+Research and development engineer, ProLogic, Inc., 2005-2008 \\
+Software engineer, Rigaku, Inc., 1999-2005 \\
+
+%\section{\sc Honors}
+%
+%% Professional Development Awards for travel to Israel ($450), Rhode
+%% Island ($250) and San Jose ($275) for SPM, BioVis and IMR, respectively.
+%%The University of Texas, Professional Development Awards, 2010, 2011, 2012 \\
+%% $1000 fellowship for first year PhD studies
+%The University of Texas, Computer Science PhD Fellowship, 2009 \\
+%Graduation \emph{Magna Cum Laude}, Utah State University, 1998 \\
+%Member \emph{Phi Kappa Phi} Honor Society, 1998 \\
+%Wendell Pope Scholarship, Utah State University, 1998 \\
+%Superior Student Scholarship, Utah State University, 1996-1998 \\
+
+%\section{\sc Peer-reviewed publications}
+%\vspace{1.2cm}
+\section{\sc Journal publications}
+
+DeWayne Derryberry, Ken Aho, \pubunder{John Edwards}, and Teri Peterson. Model selection and regression t-statistics. \textit{The American Statistician}. In press. 2018.
+\begin{IMPACT}
+Scopus impact factor: 0.51 % scopus
+%SCI impact factor: 
+\end{IMPACT}
+
+Nathan Morrical$^*$ and \pubunder{John Edwards}. Parallel quadtree construction on collections of objects. \textit{Computers and Graphics}. 66:162–168. 2017.
+\begin{IMPACT}
+Scopus impact factor: 1.63 % scopus
+%SCI impact factor: 
+\end{IMPACT}
+\\\begin{footnotesize}$^*$ Undergraduate student author\end{footnotesize}
+
+Boyd Edwards and \pubunder{John Edwards}. Periodic nonlinear sliding modes for two uniformly magnetized spheres. \textit{Chaos: An Interdisciplinary Journal of Nonlinear Science}. 27(5):053107, 2017.
+\begin{IMPACT}
+Scopus impact factor: 1.76 % scopus
+%SCI impact factor: 2.283
+\end{IMPACT}
+
+Boyd Edwards and \pubunder{John Edwards}. Dynamical interactions between two uniformly magnetized spheres. \textit{European Journal of Physics}. 38(1):015205, 2016.
+\begin{IMPACT}
+Scopus impact factor: 0.54 % scopus
+%SCI impact factor: 0.614
+\end{IMPACT}
+
+Xin Tong, \pubunder{John Edwards}, Chun-Ming Chen, Han-Wei Shen, Christopher Johnson, and Pak Chung Wong. View-dependent streamline deformation and exploration. \textit{IEEE Transactions on Visualization and Computer Graphics}. 22(7):1788-1801, 2016.
+\begin{IMPACT}
+Scopus impact factor: 3.94 % scopus
+%SCI impact factor: 2.84
+\end{IMPACT}
+
+\pubunder{John Edwards}, Eric Daniel, Valerio Pascucci, Chandrajit Bajaj. Approximating the Generalized Voronoi Diagram of Closely Spaced Objects. \textit{Computer Graphics Forum}. 34(2):299-309, 2015.
+\begin{IMPACT}
+Scopus impact factor: 2.33 % scopus
+%SCI impact factor: 1.542
+\end{IMPACT}
+
+\pubunder{John Edwards}, Eric Daniel, Justin Kinney, Terrence Sejnowski, Tom Bartol, Daniel Johnston, Kristen Harris, and Chandrajit Bajaj. VolRoverN: Enhancing surface and volumetric reconstruction for realistic dynamical simulation of cellular and subcellular function.  \textit{Neuroinformatics}. 12(2):277-289, 2014.
+\begin{IMPACT}
+Scopus impact factor: 2.72 % scopus
+%SCI impact factor: 2.825
+\end{IMPACT}
+
+\pubunder{John Edwards} and Chandrajit Bajaj. Topologically correct reconstruction of tortuous contour forests. \textit{Computer-Aided Design}. 43(10):1296-1306, 2011.
+\begin{IMPACT}
+Scopus impact factor: 2.57 % scopus
+%SCI impact factor: 
+\end{IMPACT}
+
+\begin{IMPACT}
+% * Scopus impact factors used
+\end{IMPACT}
+
+\newpage
+
+\section{\sc Refereed conference publications}
+
+John Edwards, Erika Fulton, Jonathan Holmes, Joseph Valentin$^\ddagger$, David Beard, and Kevin Parker. Separation of syntax and problem solving in Introductory Computer Programming. \textit{IEEE Frontiers in Education.} San Jose, CA. October 2018.
+
+Sidharth Kumar, Duong Hoang, Steve Petruzza, Valerio Pascucci, and \pubunder{John Edwards}. Reducing network congestion and synchronization overhead during data aggregation when writing hierarchical data. \textit{IEEE International Conference on High Performance Computing, Data, and Analytics.} Jaipur, India. December 2017. 23\% acceptance rate.
+%\begin{IMPACT}
+%23\% acceptance rate.
+%\end{IMPACT}
+
+Nathan Morrical$^*$ and \pubunder{John Edwards}. Parallel quadtree construction on collections of objects. \textit{Shape Modeling International}. Berkeley, CA. June 2017. 37\% acceptance rate.
+$^\dagger$
+%\begin{IMPACT}
+%37\% acceptance rate.
+%\end{IMPACT}
+%18/49 papers accepted to SMI
+
+\pubunder{John Edwards}, Eric Daniel, Valerio Pascucci, Chandrajit Bajaj. Approximating the Generalized Voronoi Diagram of Closely Spaced Objects. \textit{Eurographics}. Zurich, Switzerland. July 2015. 27\% acceptance rate.
+$^\dagger$
+%\begin{IMPACT}
+%27\% acceptance rate.
+%\end{IMPACT}
+
+Sidharth Kumar, \pubunder{John Edwards}, Peer-Timo Bremer, Aaron Knoll, Cameron Christensen, Venkatram Vishwanath, Philip Carns, John A. Schmidt, Valerio Pascucci. Efficient I/O and storage of adaptive resolution data. \textit{High Performance Computing, Networking, Storage and Analysis (SC14)}. New Orleans, LA. November 2014. 21\% acceptance rate.
+%\begin{IMPACT}
+%21\% acceptance rate.
+%\end{IMPACT}
+
+\pubunder{John Edwards}, Wenping Wang, and Chandrajit Bajaj. Surface segmentation for improved remeshing. \textit{Proceedings of the 21st International Meshing Roundtable}, pages 403-418. San Jose, CA. October 2012.
+
+\pubunder{John Edwards} and Chandrajit Bajaj. Topologically correct reconstruction of tortuous contour forests. \textit{Proceedings of the ACM Symposium on Solid and Physical Modeling}, pages 51-60. Haifa, Israel. September 2010. 29\% acceptance rate.
+%\begin{IMPACT}
+%29\% acceptance rate.
+%% 51 submitted, 15 full papers accepted (11 short papers accepted) for 29\% acceptance rate
+%\end{IMPACT}
+
+Joel Alberts, \pubunder{John Edwards}, Josh Johnston, and Jeff Ferrin. 3D visualization for improved manipulation and mobility in EOD and combat engineering applications. \textit{Proceedings of SPIE Defense, Security and Sensing}. April 2009.
+
+Josh Johnston, Joel Alberts, Matt Berkemeier, and \pubunder{John Edwards}. Manipulator Autonomy for EOD Robots. \textit{26th Army Science Conference}. December 2008.
+%% <www.edwardssoftware.com/john/ManipulatorAutonomy.pdf>
+
+%John Edwards. LiveMesh: An Interactive 3D Image Segmentation Tool. Masters Thesis, December 2004.
+%% <www.edwardssoftware.com/john/Thesis.pdf>
+
+\begin{footnotesize}$^\dagger$ Also listed under Journals section\end{footnotesize}
+
+\section{\sc Book chapter}
+
+John Edwards, Sidharth Kumar, and Valerio Pascucci. Big data from scientific simulations. In L. Grandinetti, G.R. Joubert, M. Kunze, and V. Pascucci, editors, \textit{Big Data and High Performance Computing}, pages 32--46. IOS Press, Amsterdam, Berlin, Tokyo, Washington, DC, 2015.
+
+\begin{PENDING}
+\section{\sc Pending publications}
+
+Lloyd Griffel$^\ddagger$, Donna Delparte, and John Edwards. A machine learning approach using spectral signatures to detect potato plants infected with Potato Virus Y. \textit{Submitted.} 2018.
+\\\begin{footnotesize}$^\ddagger$ Student author\end{footnotesize}
+\end{PENDING}
+
+%\section{\sc Submitted}
+
+%John Edwards, Eric Daniel, Chandrajit Bajaj, Valerio Pascucci. The Generalized Voronoi Diagram of Closely Spaced Objects. \textit{Submitted}. 2014.
+
+\section{\sc Grants funded}
+%\begin{itemize}[label={},leftmargin=0pt]
+%  \setlength\itemsep{0.5em}
+%\item Won: \$184,017\\Pending: \$248,304
+%\item Won: \$184,017 (\$22,842 as PI)\\Pending: \$1,135,880 (\$235,740 as PI)
+%\item Won: \$184K (\$23K as PI)\\Pending: \$1.1m (\$236K as PI)
+%\section{\sc Funded (\$184,017)}
+%\item \underline{Funded (\$184,017)}
+\textit{Syntax before problem solving: an approach to introductory computer programming education}. PI: \underline{J. Edwards}. co-PIs: E. Fulton, J. Holmes, D. Beard, K. Parker. Idaho State University Office of Research. \$32,564. 2017. Funded.
+
+\textit{Implementing Unmanned Aircraft Systems to detect crop viruses using hyperspectral remote sensing and machine learning}. PI: D. Delparte. co-PI: \underline{J. Edwards}. Idaho State Dept. of Agriculture. \$161,175. 2017. Funded.
+
+\textit{Unified modeling and visualization of avalanche flow paths}. PI: \underline{J. Edwards} with S. Pawlidis (student). STEM Undergraduate Research Initiative, Idaho SBOE. \$1,740. 2017. Funded.
+
+\textit{ISU CoSE Internal Travel Grant}. \underline{J. Edwards}. \$2,000. 2017. Funded.
+
+\textit{Improving STEM Education: Engaged Learning in an Introductory  Computer Programming Course}. PI: \underline{J. Edwards}. co-PIs: J. Holmes, K. Parker. ISU Teaching Innovation Grant. \$4820. 2017. Funded.
+
+\textit{STEM Action Center: Computer Programming Workshops in Southeastern Idaho}. C. Hill, et al. United Way. \$8000. Role: Senior personnel. 2017. Funded.
+
+\textit{igniteCS: CS education in Southeastern Idaho high schools}. PI: \underline{J. Edwards} co-PIs: J. Rose, J. Glines, et al. Google igniteCS gift. \$5307. 2016. Funded.
+
+\textit{NIH BRAIN Initiative Summer Course on interdisciplinary computational neuroscience}. \underline{J. Edwards}. Competitive admission to funded workshop at University of Missouri. 31\% acceptance rate. 2016. Funded. % 31% acceptance rate (24/77)
+
+\textit{UTexas Professional Development Award for travel to San Jose, CA}. \underline{J. Edwards}. \$275. 2012. Funded. %(\$275)
+
+\textit{UTexas Professional Development Award for travel to Providence, RI}. \underline{J. Edwards}. \$250. 2011. Funded. %(\$275)
+
+\textit{UTexas Professional Development Award for travel to Haifa, Israel}. \underline{J. Edwards}. \$450. 2010. Funded. %(\$275)
+%\end{itemize}
+
+\section{\sc Grants pending}
+%\begin{itemize}[label={},leftmargin=0pt]
+%  \setlength\itemsep{0.5em}
+%\item \underline{Pending (\$248,304)}
+\textit{Web-Based Simulations for Intermediate Mechanics Education}. PI: \underline{J. Edwards}. co-PI: S. Shropshire. NSF 17-561. \$215,740. 2017. Pending.
+%\end{itemize}
+
+\section{\sc Grants not funded}
+%\begin{itemize}[label={},leftmargin=0pt]
+%  \setlength\itemsep{0.5em}
+%\item \underline{Not funded}
+\textit{In-situ plant virus detection system using advanced remote sensing and machine learning}. PI: D. Delparte. co-PI: \underline{J. Edwards}. NSF 17-529. \$900,140. 2017. Not funded.
+
+\textit{Sensor Systems for Decision Support in the Food, Energy and Water Nexus - Testbed in Idaho's Snake River Plain}. PI: D. Delparte. co-PIs: C. Baxter, S. Godsey, F. Harris, D. Van Horn J. Rachlow, J. Forbey, \underline{J. Edwards}. NSF15-517. \$5,999,723. 2015. Not funded. %(Co-PI) % NSF 15-517 is the solicitation. \$5,999,723
+
+\textit{iSEED: UAS to Advance SES Modeling.}. PI: J. Johnston. co-PIs: J. Forbey, L. Vierling, J. Eitel, \underline{J. Edwards}, D. Delparte. NSF EPSCoR Managing Idaho’s Landscapes for Ecosystem Services (MILES) iSEED. \$242,976. 2015. Not funded. % \$242,976.07
+
+\textit{MRI: Acquisition of advanced Unmanned Aircraft Systems (UAS) remote imaging sensors and ground-based spectrometry for understanding structural and phytochemical function of ecosystems.}. PI: D. Delparte. co-PIs: \underline{J. Edwards}, J. Rachlow, J. Forbey. NSF15-504. 2015. Not funded. % 15-504 is the solicitation
+
+\textit{Morse Smale Crystals as Meshing Primitives for Lagrangian Simulations}. PI: P-T. Bremer. co-PIs: V. Pascucci, \underline{J. Edwards}, A. Gyulassy. DOE LAB 14-1003. 2013. Not funded.
+
+%\item \textit{Form and Function: Multiscale Modeling of Electrophysiology in the Hippocampus}. PI: C. Bajaj. co-PI: D. Johnston. NSF CRCNS 1311276. 2010. Role: Contributor. Not funded.
+%\end{itemize}
+
+\section{\sc Theses}
+(Ph.D.) Analysis-Ready Models of Tortuous, Tightly Packed Geometries, 2013\\
+(M.S.) Live Mesh: An Interactive 3D Image Segmentation Tool, 2004
+
+%\section{\sc Thesis}
+%Analysis-Ready Models of Tortuous, Tightly Packed Geometries, 2013\\
+
+\section{\sc Research Software}
+
+\emph{pgvd} - Parallel Generalized Voronoi Diagram Approximation\\
+\url{https://github.com/edwardsjohnmartin/pgvd.git}
+
+\emph{3PIO} - Powerful and Practical Program IDE Online\\
+\url{https://github.com/edwardsjohnmartin/3PIO.git}
+
+\emph{avalanche} - Avalanche simulation software\\
+\url{https://github.com/edwardsjohnmartin/avalanche.git}
+
+\emph{MagPhyx} - Magnet simulation software\\
+\url{http://www2.cose.isu.edu/~edwajohn/MagPhyx}
+
+\emph{GVD} - Generalized Voronoi Diagram approximation\\
+\url{http://www2.cose.isu.edu/~edwajohn/research/gvd}
+
+\emph{VolRoverN} - Neuronal reconstruction and geometric analysis\\
+http://www.cs.utexas.edu/$\sim$bajaj/cvcwp/?page\_id=2089
+
+%\emph{SimpleSeg} - Image segmentation in 3D using LiveMesh (no longer maintained)\\
+%http://www.youtube.com/watch?v=9KfhFvIvFK4
+%http://www.edwardssoftware.com/john
+
+\begin{LONG}
+
+\section{\sc Posters}
+%\section{\sc Posters\\$\star$ Best poster award}
+J. Ory, W. Grigg, J. Edwards, J. Holmes, K. Parker.
+3PIO: Powerful and Practical Python IDE Online
+\textit{Idaho Conference on Undergraduate Research}. Boise, ID, July 2017.
+
+W. Grigg, S. Denton, J. Edwards, J. Stover.
+Hidden associations: visualizing word-to-word connections in Tweets
+\textit{Idaho Conference on Undergraduate Research}. Boise, ID, July 2017.
+
+J. Valentin, K. Aho, J. Edwards, D. Derryberry, T. Peterson.
+Improving computational efficiency in identifying parsimonious statistical models
+\textit{Idaho Conference on Undergraduate Research}. Boise, ID, July 2017.
+
+G. Cochrane, J. Edwards, D. Delparte.
+LiDAR Odometry and Mapping for Terrain Analysis from Unmanned Aerial Vehicles
+\textit{Idaho Conference on Undergraduate Research}. Boise, ID, July 2017.
+
+G. Cochrane, M. Sterbentz, J. Edwards.
+Real-Time LiDAR Terrain Mapping and Analysis
+\textit{Idaho Conference on Undergraduate Research}. Boise, ID, July 2016.
+
+J. Glines, J. Edwards.
+Isosurface Extyraction in a Simple C/C++ Library
+\textit{Idaho Conference on Undergraduate Research}. Boise, ID, July 2016.
+
+N. Vollmer, N. Harrison, J. Edwards.
+An Adaptive, Parallel Algorithm for Approximating the Generalized Voronoi Diagram
+\textit{Idaho Conference on Undergraduate Research}. Boise, ID, July 2016.
+
+J. Edwards, C. Johnson.
+Visualizing white matter tracts in the human brain.
+\textit{SIAM Conference on Computational Science and Engineering}. Salt Lake City, UT, March 2015.
+
+S. Kumar, B. Summa, C. Christensen, J. Edwards, V. Pascucci.
+Multi-resolution I/O for Massive Simulations: Enabling Scalable Visualization and Processing.
+\textit{Predictive Science Academic Alliance Program (PSAAP) TST Meeting}. Palo Alto, CA, May 2014.
+
+J. Edwards, E. Daniel, C. Bajaj, J. Kinney, T. Bartol, T. Sejnowski, K. Harris, D. Johnston.
+VolumeRoverN: Analysis-ready domain models of neuronal forests.
+\textit{2nd Annual Austin Translational Neuroscience Symposium}. Austin, TX, October 2012. \\
+$\star$ Best poster award
+
+%J. Edwards, J. Kinney, K. Harris, C. Bajaj. 
+%High quality 3D geometric models of hippocampal neuropil for electrophysiological simulation. 
+%\textit{Janelia Farm Conference on Large-Scale 3D Image Annotation, Management, and Visualization}. Ashburn, VA, October 2012.
+
+J. Edwards, A. Rand, J. Kinney, K. Harris, C. Bajaj. 
+Analysis-ready meshes of neuronal forests. 
+\textit{1st IEEE Symposium on Biological Data Visualization}. Providence, RI, October 2011.
+
+J. Edwards, A. Gillette, R. K. Bettadapura, A. Rand, C. Rumsey, Q. Zhang, D. Johnston, K. Harris, C. Bajaj. 
+Electrophysiological Models Derived from EM Reconstructions. 
+\textit{The National Academies Keck Futures Initiative Conference on Imaging Science}. November 2010.
+
+A. Gillette, R. K. Bettadapura, F. Chowdury, J. Edwards, A. Gopinath, J. Rivera, B. Subramanian, A. Rand, C. Rumsey, Q. Zhang, D. Johnston, K. Harris, C. Bajaj, T. Bartol, D. Keller, J. Kinney, T. Sejnowski. 
+Spatially Realistic and Reduced Electrophysiology Models Derived From EM Reconstruction. 
+\textit{MPG-HHMI Janelia Farm High-Resolution Circuit Reconstruction Conference}. Berlin, Germany, September 2009.
+
+
+\section{\sc Contributed talks}
+MagPhyx: simulation and visualization of magnet dynamics.
+\textit{Idaho Academy of Science and Engineering}. Pocatello, ID. April 1, 2016.
+
+Surface segmentation for improved isotropic remeshing.
+\textit{21st International Meshing Roundtable}. San Jose, CA. Oct 9, 2012.
+
+Topologically correct reconstruction of tortuous contour forests.
+\textit{14th ACM Symposium on Solid and Physical Modeling}. Haifa, Israel. September 1, 2010.
+
+Advanced techniques for LiDAR visualization and analysis using ArcGIS.
+\textit{8th International Lidar Mapping Forum}. Denver, CO. February 2008.
+
+%\newpage
+
+\section{\sc Invited talks}
+At the whiteboard: collaborative data science projects
+\textit{Utah State University}. Logan, UT. Dec 8, 2017.
+
+The adventure of discovery: geometry, topology and visualization.
+\textit{Idaho State University}. Pocatello, ID. Oct 17, 2014.
+
+Exploration of high-dimensional scalar functions.
+\textit{Computational Visualization Center group meeting}. Austin, TX. Nov 13, 2013.
+
+Analysis-ready models of tortuous, tightly packed geometries.
+\textit{University of Colorado Medical Center}. Denver, CO. Mar 1, 2013.
+
+Analysis-ready models of tortuous, tightly packed geometries.
+\textit{New Mexico State University}. Las Cruces, NM. Feb 15, 2013.
+
+Analysis-ready models of tortuous, tightly packed geometries.
+\textit{Scientific Computing and Imaging Institute}. Salt Lake City,
+UT. Feb 8, 2013.
+
+Cool Geometry Stuff.
+\textit{Leander High School, Anna Bouboulis Geometry Class}. Leander, TX. Jan 5, 2012.
+
+Surface segmentation for improved isotropic remeshing.
+\textit{University of Hong Kong graphics group meeting}. Hong Kong. May 30, 2012.
+
+Polyhedron separation.
+\textit{Computational Visualization Center group meeting}. Austin, TX. Sept 7, 2011.
+
+Analysis-ready 3D reconstructions of complex objects from planar cross-sectional slices.
+\textit{Computational Visualization Center group meeting}. Austin, TX. Mar 25, 2011.
+
+The connectome: challenges and approaches.
+\textit{Computational Visualization Center group meeting}. Austin, TX, Oct 27, 2010.
+
+LidarExplorer
+\textit{Advanced LiDAR Workshop at the GeoTREE Center of the University of Northern Iowa}. August 2007.
+
+%\section{\sc Other talks}
+%Analysis-ready models of tortuous, tightly packed geometries.
+%\textit{Thesis Defense}. Austin, TX, May 20, 2013.
+%
+%Analysis-ready domain models of neuronal forests.
+%\textit{Thesis proposal}. Austin, TX, Dec 13, 2011.
+%
+%Analysis-ready 3D reconstructions of complex objects from planar cross-sectional slices.
+%\textit{Research Preparation Exam}. Austin, TX, March 29, 2011.
+
+%\newpage
+
+\end{LONG}
+
+\section{\sc Conferences}
+\textit{ACM Special Interest Group for Computer Science Education (SIGCSE).} Baltimore, MD. February 2018.
+
+\textit{Shape Modeling International.} Berkeley, CA. June 2017.
+
+\textit{Idaho EPSCoR Annual Meeting.} Coeur d'Alene, ID. October 2016.
+
+\textit{Idaho Conference on Undergraduate Research.} Boise, ID. July 2016.
+
+\textit{Idaho Academy of Science and Engineering}. Pocatello, ID. April 2016.
+
+\textit{Eurographics.} Zurich, Switzerland. July 2015.
+
+\textit{High Performance Computing, Networking, Storage and Analysis (SC14).} New Orleans, LA. November 2014.
+
+\textit{{IEEE VIS}.} Atlanta, GA. October 2013.
+
+\textit{21st International Meshing Roundtable.} San Jose, CA. October 2012.
+
+\textit{Austin Translational Neuroscience Symposium.} Austin, TX. October 2012.
+
+\textit{IEEE Symposium on Biological Data Visualization.} Providence, RI. October 2011.
+
+\textit{ACM Symposium on Solid and Physical Modeling.} Haifa, Israel. September 2010.
+
+\section{\sc Workshops}
+
+\textit{Developing Empirical Education Research Studies (DEERS).} Charlottesville, VA. July 17-19, 2018.
+
+\textit{Deep Learning in the Classroom.} SIGCSE. February 23, 2018.
+% Doug Blank (Bryn Mawr), Lisa Meeden (Swarthmore), Jim Marshall (Sarah Lawrence)
+
+\textit{Designing Empirical Education Research Studies (DEERS): Creating an Answerable Research Question.} SIGCSE. February 21, 2018.
+% Mark Sherriff (U. of Virginia)
+
+\textit{Integrating Cloud Computing into the Computer Science Curriculum.} SIGCSE. February 21, 2018.
+% Laurie White (Google)
+
+\textit{NSF XSEDE Workshop on data modeling.} Boise State University. July 18-20, 2016.
+
+\textit{NIH BRAIN Initiative Summer Course on interdisciplinary computational neuroscience.} University of Missouri. June 5-17, 2016.
+
+\textit{Grant Writers Workshop.} Idaho State University. February 29, 2016.
+
+\textit{Promotion and Tenure Workshop.} Idaho State University. November 18, 2015.
+
+\textit{Interactive Cooperative Grant Training.} Idaho State University. August 31, 2015.
+
+\textit{Advanced LiDAR Workshop}. University of Northern Iowa. August 2007.
+
+%\section{\sc Awards}
+\section{\sc Honors}
+\begin{itemize}[label={},leftmargin=0pt]
+  \setlength\itemsep{0em}
+  \item Translational Neuroscience Symposium Best Poster Award, 2012 %(\$200)
+  \item The University of Texas, Computer Science PhD Fellowship, 2009 %(\$1000)
+  \item Graduation \emph{Magna Cum Laude}, Utah State University, 1998
+  \item Member \emph{Phi Kappa Phi} Honor Society, 1998
+  \item Wendell Pope Scholarship, Utah State University, 1998
+  \item Superior Student Scholarship, Utah State University, 1996-1998
+\end{itemize}
+
+\begin{LONG}
+%\newpage
+\end{LONG}
+
+\section{\sc Professional service}
+Program committee
+\vspace{2mm}
+\begin{itemize}[label={},leftmargin=5mm]
+  \item International Conference on Geometric Modeling and Processing (GMP) 2015, 2016, 2017, 2018
+\end{itemize}
+
+Reviewer
+\vspace{2mm}
+\begin{itemize}[label={},leftmargin=5mm]
+  \item ACM Transactions on Mathematical Software
+  \item GMP 2015, 2016, 2017, 2018
+  \item Computing Surveys
+  \item Computer Aided Geometric Design
+  \item European Symposium on Algorithms 2014
+  \item International Meshing Roundtable 2015
+  \item SIGGRAPH Asia 2015
+\end{itemize}
+
+\section{\sc University service}
+%\vspace{2mm}
+\begin{itemize}[label={},leftmargin=0mm]
+  \setlength\itemsep{0em}
+  \item Chair of CS faculty search committee 2017-2018
+  \item University Research Council 2016-2018
+  \item Health Informatics search committee 2016
+  \item Author of CS Masters Degree proposal submitted 2018
+\end{itemize}
+
+\begin{LONG}
+
+\section{\sc Expert witness}
+\textit{State of Idaho v. Gabriel L. Moreno and Anthony C. Moreno}, 2018 \\
+Case Nos. CR-2017-8408-FE and CR-2017-8409-FE, District Court, County of Bannock, Idaho \\
+Nature of Case: Second degree murder.
+\par \hangindent=0.7cm \parindent=0.7cm \parskip=0.0cm Plaintiff alleged malice aforethought in a fistfight resulting in a death. The defendant claimed self-defense. The event was captured on video and posted to Snapchat, which became the primary exhibit. I testified regarding the source and analysis of the video.
+
+%\section{\sc Teaching}
+\section{\sc Courses taught}
+
+%Courses taught
+%\vspace{2mm}
+%\begin{itemize}[label={},leftmargin=5mm]
+\begin{itemize}[label={},leftmargin=0mm]
+  \setlength\itemsep{0em}
+%  \item CS 6150 Advanced Algorithms (with Valerio Pascucci, Fall 2013)
+%  \item CS 354 Computer Graphics (Spring 2013)
+%  \item CS 354 Computer Graphics (Fall 2012)
+%  \item CS 108 UNIX (Fall 2011)
+%  \item CS 105 C++ (Spring 2011)
+%  \item CS 105 C++ (Fall 2010)
+  \item Graduate Algorithms
+  \item Computer Graphics
+  \item Compilers
+  \item Operating Systems
+  \item Algorithms and Data Structures
+  \item Introductory Programming
+\end{itemize}
+
+%Teaching assistant
+%\vspace{2mm}
+%\begin{itemize}[label={},leftmargin=5mm]
+%  \setlength\itemsep{0em}
+%  \item CS 312 Introduction to Programming (Summer 2012)
+%  \item CS 354 Computer Graphics (Spring 2010)
+%  \item CS 303E Elements of Programming (Fall 2009)
+%\end{itemize}
+
+\section{\sc Students}
+\begin{itemize}[label={},leftmargin=0pt]
+  \setlength\itemsep{0em}
+  \item John Motley (current)
+  \item Galen Cochrane (current)
+  \item William Grigg (current)
+  \item Joseph Valentin (current)
+  \item Sandro Pawlidis (current)
+  \item Jacqueline Ory (NIATEC)
+  \item Nathan Morrical (PhD student, University of Utah)
+  \item Marko Sterbentz (Masters student, University of Southern California)
+  \item Jonathan Glines (NVIDIA)
+  \item Nicholas Harrison (Clearwater, Inc.)
+  \item Zackary Hall (Clearwater, Inc.)
+%  \item Zinnia Mukherjee (Masters, University of Utah)
+%  \item Sidharth Kumar (Postdoc, University of Utah)
+%  \item Laura Lediaev (PhD, University of Utah)
+%  \item Eric Greg Daniel (Google)
+\end{itemize}
+
+\section{\sc Collaborations}
+Computer Science
+\vspace{2mm}
+\begin{itemize}[label={},leftmargin=5mm]
+  \setlength\itemsep{0em}
+  \item Kevin Parker (Idaho State University)
+  \item Jonathan Holmes (Idaho State University)
+  \item Valerio Pascucci (SCI, University of Utah)
+  \item Christopher Johnson (SCI, University of Utah)
+  \item Chandrajit Bajaj (University of Texas)
+  \item Wenping Wang (University of Hong Kong)
+  \item Peer-Timo Bremer (Lawrence Livermore National Laboratories)
+  \item Attila Gyulassy (SCI)
+  \item Brian Summa (SCI, University of Utah)
+  \item Josh Johnston (Boise State University)
+  \item Parris Egbert (Brigham Young University)
+\end{itemize}
+
+\vspace{2mm}
+Other disciplines
+\vspace{2mm}
+\begin{itemize}[label={},leftmargin=5mm]
+  \setlength\itemsep{0em}
+  \item DeWayne Derryberry (Statistics, Idaho State University)
+  \item Teri Peterson (Statistics, Idaho State University)
+  \item Ken Aho (Biology, Idaho State University)
+  \item Justin Stover (History, Idaho State University)
+  \item Steven Shropshire (Physics, Idaho State University)
+  \item Boyd Edwards (Physics, Utah State University)
+  \item Donna Delparte (Geosciences, Idaho State University)
+  \item Andrew Gillette (Mathematics, University of Arizona)
+  \item Terrence Sejnowski (Neuroscience, Salk Institute)
+  \item Tom Bartol (Neuroscience, Salk Institute)
+  \item Kristen Harris (Neuroscience, University of Texas)
+  \item Justin Kinney (Neuroscience, Massachussetts Institute of Technology)
+  \item Daniel Johnston (Neuroscience, University of Texas)
+\end{itemize}
+
+\end{LONG}
+
+\end{resume}
+\end{document}
+
