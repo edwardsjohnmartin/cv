@@ -1,0 +1,270 @@
+\documentclass[margin,line]{res}
+
+\usepackage{version}
+\usepackage{versions}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[usenames,dvipsnames]{color}
+
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\widowpenalties 1 10000
+\raggedbottom
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+%\topmargin-2cm
+\textwidth=6.0in
+\textheight23.5cm
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+%\newcommand{\pubunder}[1]{\underline{#1}}
+\newcommand{\pubunder}[1]{#1}
+
+%-------------------------------------------------------------------------------
+% this makes list spacing much better.
+%-------------------------------------------------------------------------------
+\newenvironment{tightenumerate}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}
+}
+
+%-------------------------------------------------------------------------------
+% this makes list spacing much better.
+%-------------------------------------------------------------------------------
+\newenvironment{tightitemize0}{
+\begin{itemize}[label={}, leftmargin=0mm]
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}
+}
+
+\newenvironment{tightitemize1}{
+\begin{itemize}[label={}, leftmargin=5mm]
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{itemize}
+}
+
+\includeversion{LONG} 
+%\excludeversion{LONG} 
+
+%\includeversion{IMPACT}
+\excludeversion{IMPACT}
+
+\includeversion{PENDING}
+%\excludeversion{PENDING}
+
+\begin{document}
+
+\name{\Large{John Edwards, Ph.D.} \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+%\begin{tabular}{@{}p{3in}p{3in}}
+%\begin{tabular}{@{}p{3.7in}p{3in}}
+%Center for Extreme Data Management and Visualization & \\
+%Scientific Computing and Imaging Institute   &  \\%801.585.3911 (office)  \\ 
+%University of Utah      &  (385) 207-8331 \\
+%WEB 4660          &  jedwards@sci.utah.edu \\
+%Salt Lake City, UT 84112                &  http://sci.utah.edu/$\sim$jedwards
+%\end{tabular}
+
+%\begin{tabular}{@{}p{3.7in}p{3in}}
+%Center for Extreme Data Management and Visualization & (385) 207-8331 \\
+%Scientific Computing and Imaging Institute   & jedwards@sci.utah.edu \\
+%University of Utah      &  http://sci.utah.edu/$\sim$jedwards \\
+%WEB 4660          &  \\
+%Salt Lake City, UT 84112                & 
+%\end{tabular}
+
+\begin{tabular}{@{}p{3.3in}p{3in}}
+Department of Computer Science & (435) 797-0246 \\
+Utah State University   & john.edwards@usu.edu \\
+%MAIN 401D      &  www2.cose.isu.edu/$\sim$edwajohn \\
+%MAIN 401D      &  cs.usu.edu/people/faculty/edwards-john \\
+MAIN 401D      &  edwardsjohnmartin.github.io \\
+Logan, UT 84322          &
+\end{tabular}
+
+%\section{\sc Research Interests}
+\section{\sc Research}
+
+Data visualization, CS education, data science
+
+\section{\sc Education}
+
+%\textbf{Ph.D.} Computer Science, The University of Texas, 2013\\
+%\textbf{M.S.} Computer Science, Brigham Young University, 2004\\
+%\textbf{B.S.} Computer Science, Utah State University, 1998\\
+Ph.D. Computer Science, The University of Texas, 2013\\
+M.S. Computer Science, Brigham Young University, 2004\\
+B.S. Computer Science, Utah State University, 1998\\
+
+\section{\sc Professional experience}
+
+Assistant professor, Utah State University, 2018-current\\
+Assistant professor, Idaho State University, 2015-2018\\
+Post-doctoral fellow, Scientific Computing and Imaging
+Institute, University of Utah, 2013-2015\\
+Visiting scholar, University of Hong Kong, 2012\\
+Assistant instructor (during PhD studies), The University of Texas, 2010-2013\\
+Robotics and visualization research engineer, Autonomous Solutions, Inc., 2008-2009\\
+Research and development engineer, ProLogic, Inc., 2005-2008 \\
+Software engineer, Rigaku, Inc., 1999-2005 \\
+
+%\section{\sc Peer-reviewed publications}
+%\vspace{1.2cm}
+\section{\sc Journal publications}
+
+Lloyd Griffel$^*$, Donna Delparte, and John Edwards. Using Support Vector Machines classification to differentiate spectral signatures of potato plants infected with Potato Virus Y. \textit{Computers and electronics in agriculture}, 153, 318-324. 2018.
+% CiteScore impact factor: 2.78
+
+DeWayne Derryberry, Ken Aho, \pubunder{John Edwards}, and Teri Peterson. Model selection and regression t-statistics. \textit{The American Statistician}. 72(4), 379-381. 2018.
+\begin{IMPACT}
+Scopus impact factor: 0.51 % scopus
+% CiteScore impact factor: 2.58
+%SCI impact factor: 
+\end{IMPACT}
+
+Nathan Morrical$^*$ and \pubunder{John Edwards}. Parallel quadtree construction on collections of objects. \textit{Computers and Graphics}. 66:162–168. 2017.
+\begin{IMPACT}
+Scopus impact factor: 1.63 % scopus
+% CiteScore impact factor: 1.7
+%SCI impact factor: 
+\end{IMPACT}
+
+Boyd Edwards and \pubunder{John Edwards}. Periodic nonlinear sliding modes for two uniformly magnetized spheres. \textit{Chaos: An Interdisciplinary Journal of Nonlinear Science}. 27(5):053107, 2017.
+\begin{IMPACT}
+Scopus impact factor: 1.76 % scopus
+%SCI impact factor: 2.283
+\end{IMPACT}
+
+Boyd Edwards and \pubunder{John Edwards}. Dynamical interactions between two uniformly magnetized spheres. \textit{European Journal of Physics}. 38(1):015205, 2016.
+\begin{IMPACT}
+Scopus impact factor: 0.54 % scopus
+%SCI impact factor: 0.614
+\end{IMPACT}
+
+Xin Tong, \pubunder{John Edwards}, Chun-Ming Chen, Han-Wei Shen, Christopher Johnson, and Pak Chung Wong. View-dependent streamline deformation and exploration. \textit{IEEE Transactions on Visualization and Computer Graphics}. 22(7):1788-1801, 2016.
+\begin{IMPACT}
+Scopus impact factor: 3.94 % scopus
+% CiteScore impact factor: 4.1
+%SCI impact factor: 2.84
+\end{IMPACT}
+
+\pubunder{John Edwards}, Eric Daniel, Valerio Pascucci, Chandrajit Bajaj. Approximating the Generalized Voronoi Diagram of Closely Spaced Objects. \textit{Computer Graphics Forum}. 34(2):299-309, 2015.
+\begin{IMPACT}
+Scopus impact factor: 2.33 % scopus
+%SCI impact factor: 1.542
+\end{IMPACT}
+
+\pubunder{John Edwards}, Eric Daniel, Justin Kinney, Terrence Sejnowski, Tom Bartol, Daniel Johnston, Kristen Harris, and Chandrajit Bajaj. VolRoverN: Enhancing surface and volumetric reconstruction for realistic dynamical simulation of cellular and subcellular function.  \textit{Neuroinformatics}. 12(2):277-289, 2014.
+\begin{IMPACT}
+Scopus impact factor: 2.72 % scopus
+%SCI impact factor: 2.825
+\end{IMPACT}
+
+\begin{footnotesize}$^*$ Student author\end{footnotesize}
+
+%\newpage
+
+\section{\sc Refereed conference publications}
+
+John Edwards, Juho Leinonen, and Arto Hellas. A Study of Keystroke Data in Two Contexts: Written Language and Programming Language Influence Predictability of Learning Outcomes.  \textit{ACM Technical Symposium on Computing Science Education.} Portland, OR. March 2020.  $\sim$30\% acceptance rate.
+
+John Edwards, Erika Fulton, Jonathan Holmes, Joseph Valentin$^*$, David Beard, and Kevin Parker. Separation of syntax and problem solving in Introductory Computer Programming. \textit{IEEE Frontiers in Education.} San Jose, CA. October 2018.  $\sim$50\% acceptance rate.
+
+Sidharth Kumar, Duong Hoang, Steve Petruzza, Valerio Pascucci, and \pubunder{John Edwards}. Reducing network congestion and synchronization overhead during data aggregation when writing hierarchical data. \textit{IEEE International Conference on High Performance Computing, Data, and Analytics.} Jaipur, India. December 2017. 23\% acceptance rate.
+%\begin{IMPACT}
+%23\% acceptance rate.
+%\end{IMPACT}
+
+Nathan Morrical$^*$ and \pubunder{John Edwards}. Parallel quadtree construction on collections of objects. \textit{Shape Modeling International}. Berkeley, CA. June 2017. 37\% acceptance rate.
+$^\dagger$
+%\begin{IMPACT}
+%37\% acceptance rate.
+%\end{IMPACT}
+%18/49 papers accepted to SMI
+
+\pubunder{John Edwards}, Eric Daniel, Valerio Pascucci, Chandrajit Bajaj. Approximating the Generalized Voronoi Diagram of Closely Spaced Objects. \textit{Eurographics}. Zurich, Switzerland. July 2015. 27\% acceptance rate.
+$^\dagger$
+%\begin{IMPACT}
+%27\% acceptance rate.
+%\end{IMPACT}
+
+%Sidharth Kumar, \pubunder{John Edwards}, Peer-Timo Bremer, Aaron Knoll, Cameron Christensen, Venkatram Vishwanath, Philip Carns, John A. Schmidt, Valerio Pascucci. Efficient I/O and storage of adaptive resolution data. \textit{High Performance Computing, Networking, Storage and Analysis (SC14)}. New Orleans, LA. November 2014. 21\% acceptance rate.
+%\begin{IMPACT}
+%21\% acceptance rate.
+%\end{IMPACT}
+
+\begin{footnotesize}$^*$ Student author\end{footnotesize}
+\\\begin{footnotesize}$^\dagger$ Also listed under Journals section\end{footnotesize}
+
+\section{\sc Book chapter}
+
+John Edwards, Sidharth Kumar, and Valerio Pascucci. Big data from scientific simulations. In L. Grandinetti, G.R. Joubert, M. Kunze, and V. Pascucci, editors, \textit{Big Data and High Performance Computing}, pages 32--46. IOS Press, Amsterdam, Berlin, Tokyo, Washington, DC, 2015.
+
+\section{\sc Professional service}
+Program committee
+\vspace{2mm}
+%\begin{itemize}[label={},leftmargin=5mm]
+\begin{tightitemize1}
+  \item IEEE Intermountain Engineering, Technology, and Computing (i-ETC) 2020
+  \item International Conference on Geometric Modeling and Processing (GMP) 2015, 2016, 2017, 2018
+\end{tightitemize1}
+
+Reviewer
+\vspace{2mm}
+%\begin{tightitemize}[label={},leftmargin=5mm]
+\begin{tightitemize1}
+  \item ACM SIGCSE 2019, 2020
+  \item Computer Animation and Virtual Worlds
+  \item IEEE FIE 2018
+  \item ACM Transactions on Mathematical Software
+  \item GMP 2015, 2016, 2017, 2018
+  \item Computing Surveys
+  \item Computer Aided Geometric Design
+  \item European Symposium on Algorithms 2014
+  \item International Meshing Roundtable 2015
+  \item SIGGRAPH Asia 2015
+\end{tightitemize1}
+
+\section{\sc University service}
+%\vspace{2mm}
+%\begin{itemize}[label={},leftmargin=0mm]
+\begin{tightitemize0}
+%  \setlength\itemsep{0em}
+  \item Member of Computer Science Undergraduate Curriculum Committee 2018-2020
+  \item Member of Computer Science Faculty Search Committee 2019-2020
+  \item Chair of CS faculty search committee 2017-2018 (ISU)
+  \item University Research Council 2016-2018 (ISU)
+  \item Health Informatics search committee 2016 (ISU)
+  \item Author of CS Masters Degree proposal submitted 2018 (ISU)
+\end{tightitemize0}
+
+\end{resume}
+\end{document}
+
